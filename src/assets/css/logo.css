@@ -1,0 +1,43 @@
+.logo_image {
+  width: 100px;
+  object-fit: contain;
+  margin-top: -1px;
+  border-radius: 5px;
+  border: 3px solid rgba(0, 0, 0, 0.23);
+}
+
+.header_bg {
+  background: #fff;
+  padding: 14px;
+  margin-top: -20px;
+  margin-bottom: -10px;
+}
+
+.banner_container {
+  background-image: url("https://tailwindcss.com/_next/static/media/docs@tinypng.61f4d3334a6d245fc2297517c87ae044.png");
+  background-repeat: no-repeat;
+}
+
+.roots_about {
+  font-size: 16px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  text-decoration: none;
+  font-weight: 500;
+  font-style: oblique;
+}
+
+.aboutus {
+  display: flex;
+  justify-content: center;
+  font-size: 26px;
+  font-weight: 800;
+}
+
+.treatments_head {
+  font-size: 31px;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  margin-top: -40px;
+}
