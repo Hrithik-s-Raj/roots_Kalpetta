@@ -7,6 +7,11 @@ import bannerBg from "assets/images/banner-bg.jpg";
 import mapMarker from "assets/images/icons/map-marker.png";
 // requires a loader
 import { Carousel } from "react-responsive-carousel";
+import gallery1 from "assets/slides/1.jpg";
+import gallery2 from "assets/slides/2.jpg";
+import gallery3 from "assets/slides/4.jpg";
+import gallery4 from "assets/slides/5.jpg";
+import gallery5 from "assets/06.jpg";
 
 const options = [
   {
@@ -81,39 +86,19 @@ export default function Banner() {
                   interval={5000}
                 >
                   <div>
-                    <img
-                      loading="lazy"
-                      src="https://firebasestorage.googleapis.com/v0/b/covifind-673e3.appspot.com/o/roots-assets%2F2.jpg?alt=media&token=959a9af2-88dc-4372-95bf-de619765be75"
-                      alt=""
-                    />
+                    <img loading="lazy" src={gallery1} alt="" />
                   </div>
                   <div>
-                    <img
-                      loading="lazy"
-                      src="https://firebasestorage.googleapis.com/v0/b/covifind-673e3.appspot.com/o/roots-assets%2F5.jpg?alt=media&token=699d3d10-2015-489e-967b-48efcab5e9a8"
-                      alt=""
-                    />
+                    <img loading="lazy" src={gallery2} alt="" />
                   </div>
                   <div>
-                    <img
-                      loading="lazy"
-                      src="https://firebasestorage.googleapis.com/v0/b/covifind-673e3.appspot.com/o/roots-assets%2F4.jpg?alt=media&token=3e47b984-d93b-421c-84be-4091e4bc663c"
-                      alt=""
-                    />
+                    <img loading="lazy" src={gallery3} alt="" />
                   </div>
                   <div>
-                    <img
-                      loading="lazy"
-                      src="https://firebasestorage.googleapis.com/v0/b/covifind-673e3.appspot.com/o/roots-assets%2F3.jpg?alt=media&token=9bba6d05-b94a-466d-9892-742b7186b332"
-                      alt=""
-                    />
+                    <img loading="lazy" src={gallery4} alt="" />
                   </div>
                   <div>
-                    <img
-                      loading="lazy"
-                      src="https://firebasestorage.googleapis.com/v0/b/covifind-673e3.appspot.com/o/roots-assets%2F1.jpg?alt=media&token=2cc2f711-0277-4733-ae60-cb34a52226e3"
-                      alt=""
-                    />
+                    <img loading="lazy" src={gallery5} alt="" />
                   </div>
                 </Carousel>
               </div>
